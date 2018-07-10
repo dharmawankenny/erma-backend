@@ -1,0 +1,52 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/obstetricdiseasehistory",
+      "handler": "Obstetricdiseasehistory.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/obstetricdiseasehistory/count",
+      "handler": "Obstetricdiseasehistory.count",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/obstetricdiseasehistory/:_id",
+      "handler": "Obstetricdiseasehistory.findOne",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "POST",
+      "path": "/obstetricdiseasehistory",
+      "handler": "Obstetricdiseasehistory.create",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/obstetricdiseasehistory/:_id",
+      "handler": "Obstetricdiseasehistory.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/obstetricdiseasehistory/:_id",
+      "handler": "Obstetricdiseasehistory.destroy",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}

@@ -1,0 +1,10 @@
+{
+  "host": "erma.reida.tech",
+  "port": 1337,
+  "autoReload": {
+    "enabled": false
+  },
+  "cron": {
+    "enabled": false
+  }
+}

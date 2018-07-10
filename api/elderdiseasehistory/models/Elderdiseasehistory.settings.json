@@ -1,0 +1,38 @@
+{
+  "connection": "default",
+  "collectionName": "",
+  "info": {
+    "name": "elderdiseasehistory",
+    "description": ""
+  },
+  "options": {
+    "timestamps": true
+  },
+  "attributes": {
+    "usingAidTools": {
+      "type": "boolean"
+    },
+    "aidsToolsNames": {
+      "type": "string"
+    },
+    "isNeedingAssistance": {
+      "type": "boolean"
+    },
+    "assistanceTypes": {
+      "type": "string"
+    },
+    "isDecubitus": {
+      "type": "boolean"
+    },
+    "decubitusStartYear": {
+      "type": "integer"
+    },
+    "isFallingRisk": {
+      "type": "boolean"
+    },
+    "patients": {
+      "model": "patients",
+      "via": "elderDiseaseHistory"
+    }
+  }
+}

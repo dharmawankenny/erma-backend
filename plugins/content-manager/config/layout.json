@@ -1,0 +1,507 @@
+{
+  "patients": {
+    "attributes": {
+      "name": {
+        "appearance": ""
+      },
+      "diseaseHistory": {
+        "appearance": ""
+      },
+      "drugHistory": {
+        "appearance": ""
+      },
+      "latestBloodTransfusionYear": {
+        "appearance": ""
+      },
+      "hospitalizationHistoryDisease": {
+        "appearance": ""
+      },
+      "accidentHistoryName": {
+        "appearance": ""
+      },
+      "accidentHistoryYear": {
+        "appearance": ""
+      },
+      "hospitalizationHistoryYear": {
+        "appearance": ""
+      },
+      "longDrugUseHistoryName": {
+        "appearance": ""
+      },
+      "longDrugUseHistoryYear": {
+        "appearance": ""
+      },
+      "behaviorSmoking": {
+        "appearance": ""
+      },
+      "behaviorSmokingStopYear": {
+        "appearance": ""
+      },
+      "behaviorAlcohol": {
+        "appearance": ""
+      },
+      "behaviorAlcoholStopYear": {
+        "appearance": ""
+      },
+      "behaviorSport": {
+        "appearance": ""
+      },
+      "patientType": {
+        "appearance": ""
+      },
+      "profilePicture": {
+        "appearance": ""
+      }
+    }
+  },
+  "doctors": {
+    "attributes": {
+      "name": {
+        "appearance": ""
+      },
+      "birth_date": {
+        "appearance": ""
+      },
+      "gender": {
+        "appearance": ""
+      }
+    }
+  },
+  "educationHistory": {
+    "attributes": {
+      "type": {
+        "appearance": ""
+      },
+      "institution": {
+        "appearance": ""
+      },
+      "start_year": {
+        "appearance": ""
+      },
+      "end_year": {
+        "appearance": ""
+      }
+    }
+  },
+  "employmentHistory": {
+    "attributes": {
+      "institution": {
+        "appearance": ""
+      },
+      "start_year": {
+        "appearance": ""
+      },
+      "end_year": {
+        "appearance": ""
+      }
+    }
+  },
+  "familyDiseaseHistory": {
+    "attributes": {
+      "hipertensi": {
+        "appearance": ""
+      },
+      "kencingManis": {
+        "appearance": ""
+      },
+      "jantung": {
+        "appearance": ""
+      },
+      "ginjal": {
+        "appearance": ""
+      },
+      "asthma": {
+        "appearance": ""
+      },
+      "alergi": {
+        "appearance": ""
+      },
+      "stroke": {
+        "appearance": ""
+      },
+      "kolesterol": {
+        "appearance": ""
+      },
+      "hepatitis": {
+        "appearance": ""
+      },
+      "gondok": {
+        "appearance": ""
+      },
+      "prostate": {
+        "appearance": ""
+      },
+      "katarak": {
+        "appearance": ""
+      },
+      "ususBesar": {
+        "appearance": ""
+      },
+      "kanker": {
+        "appearance": ""
+      },
+      "gangguanMental": {
+        "appearance": ""
+      },
+      "lainnya": {
+        "appearance": ""
+      },
+      "hipertensiOrigin": {
+        "appearance": ""
+      },
+      "kencingManisOrigin": {
+        "appearance": ""
+      },
+      "jantungOrigin": {
+        "appearance": ""
+      },
+      "ginjalOrigin": {
+        "appearance": ""
+      },
+      "asthmaOrigin": {
+        "appearance": ""
+      },
+      "alergiOrigin": {
+        "appearance": ""
+      },
+      "strokeOrigin": {
+        "appearance": ""
+      },
+      "kolesterolOrigin": {
+        "appearance": ""
+      },
+      "hepatitisOrigin": {
+        "appearance": ""
+      },
+      "gondokOrigin": {
+        "appearance": ""
+      },
+      "prostateOrigin": {
+        "appearance": ""
+      },
+      "katarakOrigin": {
+        "appearance": ""
+      },
+      "ususBesarOrigin": {
+        "appearance": ""
+      },
+      "kankerOrigin": {
+        "appearance": ""
+      },
+      "gangguanMentalOrigin": {
+        "appearance": ""
+      },
+      "lainnyaOrigin": {
+        "appearance": ""
+      }
+    }
+  },
+  "elderDiseaseHistory": {
+    "attributes": {
+      "usingAidTools": {
+        "appearance": ""
+      },
+      "aidsToolsNames": {
+        "appearance": ""
+      },
+      "isNeedingAssistance": {
+        "appearance": ""
+      },
+      "assistanceTypes": {
+        "appearance": ""
+      },
+      "isDecubitus": {
+        "appearance": ""
+      },
+      "decubitusStartYear": {
+        "appearance": ""
+      },
+      "isFallingRisk": {
+        "appearance": ""
+      }
+    }
+  },
+  "childDiseaseHistory": {
+    "attributes": {
+      "birthHospital": {
+        "appearance": ""
+      },
+      "birthHandler": {
+        "appearance": ""
+      },
+      "birthMethod": {
+        "appearance": ""
+      },
+      "birthMethodNotes": {
+        "appearance": ""
+      },
+      "birthCondition": {
+        "appearance": ""
+      },
+      "birthWeight": {
+        "appearance": ""
+      },
+      "birthHeight": {
+        "appearance": ""
+      },
+      "hasExperiencedSakitKuning": {
+        "appearance": ""
+      },
+      "medicalActionTakenSakitKuning": {
+        "appearance": ""
+      },
+      "hasExperiencedKejang": {
+        "appearance": ""
+      },
+      "kejangOccurence": {
+        "appearance": ""
+      },
+      "medicalActionTakenKejang": {
+        "appearance": ""
+      },
+      "wasGivenASIEksklusif": {
+        "appearance": ""
+      },
+      "childNumber": {
+        "appearance": ""
+      },
+      "motherAgeWhenPregnant": {
+        "appearance": ""
+      },
+      "wasMotherBeingHospitalized": {
+        "appearance": ""
+      },
+      "motherHospitalizationIndication": {
+        "appearance": ""
+      },
+      "wasMotherConsumingDrugs": {
+        "appearance": ""
+      },
+      "motherDrugsTaken": {
+        "appearance": ""
+      }
+    }
+  },
+  "childImmunizationHistory": {
+    "attributes": {
+      "BCG": {
+        "appearance": ""
+      },
+      "hepB": {
+        "appearance": ""
+      },
+      "DPT": {
+        "appearance": ""
+      },
+      "polio": {
+        "appearance": ""
+      },
+      "campak": {
+        "appearance": ""
+      },
+      "HIB": {
+        "appearance": ""
+      },
+      "IPD": {
+        "appearance": ""
+      },
+      "influenza": {
+        "appearance": ""
+      },
+      "cacarAir": {
+        "appearance": ""
+      },
+      "MMR": {
+        "appearance": ""
+      },
+      "thypoid": {
+        "appearance": ""
+      },
+      "hepA": {
+        "appearance": ""
+      },
+      "HPV": {
+        "appearance": ""
+      },
+      "rotavirus": {
+        "appearance": ""
+      }
+    }
+  },
+  "obstetricDiseaseHistory": {
+    "attributes": {
+      "currentGravida": {
+        "appearance": ""
+      },
+      "currentPara": {
+        "appearance": ""
+      },
+      "currentAbortus": {
+        "appearance": ""
+      },
+      "lastMenstruationDate": {
+        "appearance": ""
+      },
+      "predictedBirthDate": {
+        "appearance": ""
+      },
+      "isDoingRegularNatalCheck": {
+        "appearance": ""
+      },
+      "hasHipertensi": {
+        "appearance": ""
+      },
+      "jantung": {
+        "appearance": ""
+      },
+      "hasKencingManis": {
+        "appearance": ""
+      },
+      "hasGinjal": {
+        "appearance": ""
+      },
+      "hasISK": {
+        "appearance": ""
+      },
+      "hasAnemi": {
+        "appearance": ""
+      },
+      "hasSakitKepala": {
+        "appearance": ""
+      },
+      "historyPendarahanANC": {
+        "appearance": ""
+      },
+      "historyPreEklampsi": {
+        "appearance": ""
+      },
+      "historyEklampsi": {
+        "appearance": ""
+      },
+      "historyPendarahanPNC": {
+        "appearance": ""
+      },
+      "historyOperasiSC": {
+        "appearance": ""
+      },
+      "behaviorNutrition": {
+        "appearance": ""
+      },
+      "behaviorNutritionNotes": {
+        "appearance": ""
+      },
+      "behaviorSmoking": {
+        "appearance": ""
+      },
+      "behaviorSmokingNotes": {
+        "appearance": ""
+      },
+      "behaviorAlcohol": {
+        "appearance": ""
+      },
+      "behaviorAlcoholNotes": {
+        "appearance": ""
+      },
+      "behaviorSenamHamil": {
+        "appearance": ""
+      },
+      "behaviorSenamHamilNotes": {
+        "appearance": ""
+      },
+      "behaviorBreastCare": {
+        "appearance": ""
+      },
+      "behaviorBreastCareNotes": {
+        "appearance": ""
+      },
+      "screeningAnomalyGizi": {
+        "appearance": ""
+      },
+      "screeningAnomalyTORCH": {
+        "appearance": ""
+      },
+      "screeningAnomalyHepB": {
+        "appearance": ""
+      },
+      "screeningAnomalyAIDS": {
+        "appearance": ""
+      },
+      "screeningAnomalyGulaDarah": {
+        "appearance": ""
+      }
+    }
+  },
+  "medicalrecord": {
+    "attributes": {
+      "age": {
+        "appearance": ""
+      },
+      "location": {
+        "appearance": ""
+      },
+      "gender": {
+        "appearance": ""
+      },
+      "kesadaran": {
+        "appearance": ""
+      },
+      "weight": {
+        "appearance": ""
+      },
+      "height": {
+        "appearance": ""
+      },
+      "anamnesis": {
+        "appearance": ""
+      },
+      "keluhanUtama": {
+        "appearance": ""
+      },
+      "durasi": {
+        "appearance": ""
+      },
+      "systole": {
+        "appearance": ""
+      },
+      "diastole": {
+        "appearance": ""
+      },
+      "asamUrat": {
+        "appearance": ""
+      },
+      "gulaDarah": {
+        "appearance": ""
+      },
+      "kolesterol": {
+        "appearance": ""
+      },
+      "detakJantung": {
+        "appearance": ""
+      },
+      "pemeriksaanFisikNotes": {
+        "appearance": ""
+      },
+      "diagnosis": {
+        "appearance": ""
+      },
+      "pharmacology": {
+        "appearance": ""
+      },
+      "nonPharmacology": {
+        "appearance": ""
+      },
+      "pemeriksaanPenunjang": {
+        "appearance": ""
+      },
+      "pemeriksaanSelanjutnya": {
+        "appearance": ""
+      },
+      "rujukan": {
+        "appearance": ""
+      },
+      "rujukanHospital": {
+        "appearance": ""
+      }
+    }
+  }
+}

@@ -1,0 +1,151 @@
+{
+  "connection": "default",
+  "collectionName": "",
+  "info": {
+    "name": "obstetricdiseasehistory",
+    "description": ""
+  },
+  "options": {
+    "timestamps": true
+  },
+  "attributes": {
+    "currentGravida": {
+      "type": "integer"
+    },
+    "currentPara": {
+      "type": "integer"
+    },
+    "currentAbortus": {
+      "type": "integer"
+    },
+    "lastMenstruationDate": {
+      "type": "date"
+    },
+    "predictedBirthDate": {
+      "type": "date"
+    },
+    "isDoingRegularNatalCheck": {
+      "type": "boolean"
+    },
+    "hasHipertensi": {
+      "type": "enumeration",
+      "enum": [
+        "tidak",
+        "ya (berobat)",
+        " ya (tidak berobat)"
+      ]
+    },
+    "jantung": {
+      "type": "enumeration",
+      "enum": [
+        "tidak",
+        "ya (berobat)",
+        " ya (tidak berobat)"
+      ]
+    },
+    "hasKencingManis": {
+      "type": "enumeration",
+      "enum": [
+        "tidak",
+        "ya (berobat)",
+        " ya (tidak berobat)"
+      ]
+    },
+    "hasGinjal": {
+      "type": "enumeration",
+      "enum": [
+        "tidak",
+        "ya (berobat)",
+        " ya (tidak berobat)"
+      ]
+    },
+    "hasISK": {
+      "type": "enumeration",
+      "enum": [
+        "tidak",
+        "ya (berobat)",
+        " ya (tidak berobat)"
+      ]
+    },
+    "hasAnemi": {
+      "type": "enumeration",
+      "enum": [
+        "tidak",
+        "ya (berobat)",
+        " ya (tidak berobat)"
+      ]
+    },
+    "hasSakitKepala": {
+      "type": "enumeration",
+      "enum": [
+        "tidak",
+        "ya (berobat)",
+        " ya (tidak berobat)"
+      ]
+    },
+    "historyPendarahanANC": {
+      "type": "boolean"
+    },
+    "historyPreEklampsi": {
+      "type": "boolean"
+    },
+    "historyEklampsi": {
+      "type": "boolean"
+    },
+    "historyPendarahanPNC": {
+      "type": "boolean"
+    },
+    "historyOperasiSC": {
+      "type": "boolean"
+    },
+    "behaviorNutrition": {
+      "type": "boolean"
+    },
+    "behaviorNutritionNotes": {
+      "type": "string"
+    },
+    "behaviorSmoking": {
+      "type": "boolean"
+    },
+    "behaviorSmokingNotes": {
+      "type": "string"
+    },
+    "behaviorAlcohol": {
+      "type": "boolean"
+    },
+    "behaviorAlcoholNotes": {
+      "type": "string"
+    },
+    "behaviorSenamHamil": {
+      "type": "boolean"
+    },
+    "behaviorSenamHamilNotes": {
+      "type": "string"
+    },
+    "behaviorBreastCare": {
+      "type": "boolean"
+    },
+    "behaviorBreastCareNotes": {
+      "type": "string"
+    },
+    "screeningAnomalyGizi": {
+      "type": "boolean"
+    },
+    "screeningAnomalyTORCH": {
+      "type": "boolean"
+    },
+    "screeningAnomalyHepB": {
+      "type": "boolean"
+    },
+    "screeningAnomalyAIDS": {
+      "type": "boolean"
+    },
+    "screeningAnomalyGulaDarah": {
+      "type": "boolean"
+    },
+    "patients": {
+      "model": "patients",
+      "via": "obstetricDiseaseHistory"
+    }
+  }
+}

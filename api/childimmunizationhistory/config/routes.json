@@ -1,0 +1,52 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/childimmunizationhistory",
+      "handler": "Childimmunizationhistory.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/childimmunizationhistory/count",
+      "handler": "Childimmunizationhistory.count",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/childimmunizationhistory/:_id",
+      "handler": "Childimmunizationhistory.findOne",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "POST",
+      "path": "/childimmunizationhistory",
+      "handler": "Childimmunizationhistory.create",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/childimmunizationhistory/:_id",
+      "handler": "Childimmunizationhistory.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/childimmunizationhistory/:_id",
+      "handler": "Childimmunizationhistory.destroy",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}

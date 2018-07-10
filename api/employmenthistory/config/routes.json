@@ -1,0 +1,52 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/employmenthistory",
+      "handler": "Employmenthistory.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/employmenthistory/count",
+      "handler": "Employmenthistory.count",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/employmenthistory/:_id",
+      "handler": "Employmenthistory.findOne",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "POST",
+      "path": "/employmenthistory",
+      "handler": "Employmenthistory.create",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/employmenthistory/:_id",
+      "handler": "Employmenthistory.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/employmenthistory/:_id",
+      "handler": "Employmenthistory.destroy",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}

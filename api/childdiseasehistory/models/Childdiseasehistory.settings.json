@@ -1,0 +1,92 @@
+{
+  "connection": "default",
+  "collectionName": "childdiseasehistory",
+  "info": {
+    "name": "childDiseaseHistory",
+    "description": ""
+  },
+  "options": {
+    "timestamps": true
+  },
+  "attributes": {
+    "birthHospital": {
+      "type": "string"
+    },
+    "birthHandler": {
+      "type": "enumeration",
+      "enum": [
+        "bidan",
+        "dokter",
+        "non-tenaga kesehatan"
+      ]
+    },
+    "birthMethod": {
+      "type": "enumeration",
+      "enum": [
+        "spontan",
+        "operasi"
+      ]
+    },
+    "birthMethodNotes": {
+      "type": "string"
+    },
+    "birthCondition": {
+      "type": "enumeration",
+      "enum": [
+        "menangis spontan",
+        "diam",
+        "tidak tahu"
+      ]
+    },
+    "birthWeight": {
+      "type": "integer"
+    },
+    "birthHeight": {
+      "type": "integer"
+    },
+    "hasExperiencedSakitKuning": {
+      "type": "boolean"
+    },
+    "medicalActionTakenSakitKuning": {
+      "type": "string"
+    },
+    "hasExperiencedKejang": {
+      "type": "boolean"
+    },
+    "kejangOccurence": {
+      "type": "integer"
+    },
+    "medicalActionTakenKejang": {
+      "type": "string"
+    },
+    "wasGivenASIEksklusif": {
+      "type": "boolean"
+    },
+    "childNumber": {
+      "type": "integer"
+    },
+    "motherAgeWhenPregnant": {
+      "type": "integer"
+    },
+    "wasMotherBeingHospitalized": {
+      "type": "boolean"
+    },
+    "motherHospitalizationIndication": {
+      "type": "string"
+    },
+    "wasMotherConsumingDrugs": {
+      "type": "boolean"
+    },
+    "motherDrugsTaken": {
+      "type": "string"
+    },
+    "childImmunizationHistory": {
+      "model": "childimmunizationhistory",
+      "via": "childDiseaseHistory"
+    },
+    "patients": {
+      "model": "patients",
+      "via": "childDiseaseHistory"
+    }
+  }
+}

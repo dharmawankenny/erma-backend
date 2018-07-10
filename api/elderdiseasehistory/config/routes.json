@@ -1,0 +1,52 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/elderdiseasehistory",
+      "handler": "Elderdiseasehistory.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/elderdiseasehistory/count",
+      "handler": "Elderdiseasehistory.count",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/elderdiseasehistory/:_id",
+      "handler": "Elderdiseasehistory.findOne",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "POST",
+      "path": "/elderdiseasehistory",
+      "handler": "Elderdiseasehistory.create",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/elderdiseasehistory/:_id",
+      "handler": "Elderdiseasehistory.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/elderdiseasehistory/:_id",
+      "handler": "Elderdiseasehistory.destroy",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}

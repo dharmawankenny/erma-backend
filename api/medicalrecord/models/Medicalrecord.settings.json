@@ -1,0 +1,112 @@
+{
+  "connection": "default",
+  "collectionName": "medicalrecord",
+  "info": {
+    "name": "medicalrecord",
+    "description": ""
+  },
+  "options": {
+    "timestamps": true
+  },
+  "attributes": {
+    "patients": {
+      "model": "patients",
+      "via": "medicalRecords"
+    },
+    "doctors": {
+      "model": "doctors",
+      "via": "medicalRecords"
+    },
+    "recordDate": {
+      "type": "date"
+    },
+    "age": {
+      "type": "integer"
+    },
+    "location": {
+      "type": "enumeration",
+      "enum": [
+        "Jakarta Utara",
+        "Jakarta Pusat",
+        "Jakarta Timur",
+        "Jakarta Barat",
+        "Jakarta Selatan",
+        "Depok"
+      ]
+    },
+    "gender": {
+      "type": "enumeration",
+      "enum": [
+        "male",
+        "female"
+      ]
+    },
+    "kesadaran": {
+      "type": "enumeration",
+      "enum": [
+        "compos mentis",
+        "apatis",
+        "somnolen",
+        "stupor",
+        "koma"
+      ]
+    },
+    "weight": {
+      "type": "integer"
+    },
+    "height": {
+      "type": "integer"
+    },
+    "anamnesis": {
+      "type": "string"
+    },
+    "keluhanUtama": {
+      "type": "string"
+    },
+    "durasi": {
+      "type": "string"
+    },
+    "systole": {
+      "type": "integer"
+    },
+    "diastole": {
+      "type": "integer"
+    },
+    "asamUrat": {
+      "type": "integer"
+    },
+    "gulaDarah": {
+      "type": "integer"
+    },
+    "kolesterol": {
+      "type": "integer"
+    },
+    "detakJantung": {
+      "type": "integer"
+    },
+    "pemeriksaanFisikNotes": {
+      "type": "string"
+    },
+    "diagnosis": {
+      "type": "string"
+    },
+    "pharmacology": {
+      "type": "string"
+    },
+    "nonPharmacology": {
+      "type": "string"
+    },
+    "pemeriksaanPenunjang": {
+      "type": "string"
+    },
+    "pemeriksaanSelanjutnya": {
+      "type": "date"
+    },
+    "rujukan": {
+      "type": "boolean"
+    },
+    "rujukanHospital": {
+      "type": "string"
+    }
+  }
+}

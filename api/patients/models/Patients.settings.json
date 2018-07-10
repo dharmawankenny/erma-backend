@@ -1,0 +1,127 @@
+{
+  "connection": "default",
+  "collectionName": "patients",
+  "info": {
+    "name": "patients",
+    "description": "Patient data tables"
+  },
+  "options": {
+    "timestamps": true
+  },
+  "attributes": {
+    "name": {
+      "type": "string",
+      "required": true
+    },
+    "birth_date": {
+      "type": "date"
+    },
+    "gender": {
+      "type": "enumeration",
+      "enum": [
+        "male",
+        "female"
+      ]
+    },
+    "user": {
+      "model": "user",
+      "via": "patients",
+      "plugin": "users-permissions"
+    },
+    "diseaseHistory": {
+      "type": "string"
+    },
+    "drugHistory": {
+      "type": "string"
+    },
+    "latestBloodTransfusionYear": {
+      "type": "integer"
+    },
+    "hospitalizationHistoryDisease": {
+      "type": "string"
+    },
+    "accidentHistoryName": {
+      "type": "string"
+    },
+    "accidentHistoryYear": {
+      "type": "string"
+    },
+    "hospitalizationHistoryYear": {
+      "type": "string"
+    },
+    "longDrugUseHistoryName": {
+      "type": "string"
+    },
+    "longDrugUseHistoryYear": {
+      "type": "string"
+    },
+    "behaviorSmoking": {
+      "type": "enumeration",
+      "enum": [
+        "yes",
+        "no",
+        "stop"
+      ]
+    },
+    "behaviorSmokingStopYear": {
+      "type": "integer"
+    },
+    "behaviorAlcohol": {
+      "type": "enumeration",
+      "enum": [
+        "yes",
+        "no",
+        "stop"
+      ]
+    },
+    "behaviorAlcoholStopYear": {
+      "type": "integer"
+    },
+    "behaviorSport": {
+      "type": "enumeration",
+      "enum": [
+        "yes",
+        "no",
+        "stop"
+      ]
+    },
+    "familyDiseaseHistory": {
+      "model": "familydiseasehistory",
+      "via": "patients"
+    },
+    "elderDiseaseHistory": {
+      "model": "elderdiseasehistory",
+      "via": "patients"
+    },
+    "obstetricDiseaseHistory": {
+      "model": "obstetricdiseasehistory",
+      "via": "patients"
+    },
+    "patientType": {
+      "type": "enumeration",
+      "required": true,
+      "enum": [
+        "adult",
+        "child",
+        "elder",
+        "obstetric"
+      ]
+    },
+    "profilePicture": {
+      "type": "string"
+    },
+    "childDiseaseHistory": {
+      "model": "childdiseasehistory",
+      "via": "patients"
+    },
+    "doctors": {
+      "collection": "doctors",
+      "via": "patients",
+      "dominant": true
+    },
+    "medicalRecords": {
+      "collection": "medicalrecord",
+      "via": "patients"
+    }
+  }
+}

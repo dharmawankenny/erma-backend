@@ -1,0 +1,52 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/familydiseasehistory",
+      "handler": "Familydiseasehistory.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/familydiseasehistory/count",
+      "handler": "Familydiseasehistory.count",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/familydiseasehistory/:_id",
+      "handler": "Familydiseasehistory.findOne",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "POST",
+      "path": "/familydiseasehistory",
+      "handler": "Familydiseasehistory.create",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/familydiseasehistory/:_id",
+      "handler": "Familydiseasehistory.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/familydiseasehistory/:_id",
+      "handler": "Familydiseasehistory.destroy",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}

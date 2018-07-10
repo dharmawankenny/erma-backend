@@ -1,0 +1,10 @@
+{
+  "host": "35.240.138.109",
+  "port": 1337,
+  "autoReload": {
+    "enabled": true
+  },
+  "cron": {
+    "enabled": false
+  }
+}

@@ -1,0 +1,52 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/childdiseasehistory",
+      "handler": "Childdiseasehistory.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/childdiseasehistory/count",
+      "handler": "Childdiseasehistory.count",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/childdiseasehistory/:_id",
+      "handler": "Childdiseasehistory.findOne",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "POST",
+      "path": "/childdiseasehistory",
+      "handler": "Childdiseasehistory.create",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/childdiseasehistory/:_id",
+      "handler": "Childdiseasehistory.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/childdiseasehistory/:_id",
+      "handler": "Childdiseasehistory.destroy",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}

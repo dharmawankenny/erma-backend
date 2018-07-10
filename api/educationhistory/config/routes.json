@@ -1,0 +1,52 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/educationhistory",
+      "handler": "Educationhistory.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/educationhistory/count",
+      "handler": "Educationhistory.count",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/educationhistory/:_id",
+      "handler": "Educationhistory.findOne",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "POST",
+      "path": "/educationhistory",
+      "handler": "Educationhistory.create",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/educationhistory/:_id",
+      "handler": "Educationhistory.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/educationhistory/:_id",
+      "handler": "Educationhistory.destroy",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}

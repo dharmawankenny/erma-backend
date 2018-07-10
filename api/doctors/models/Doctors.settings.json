@@ -1,0 +1,55 @@
+{
+  "connection": "default",
+  "collectionName": "doctors",
+  "info": {
+    "name": "doctors",
+    "description": "Doctor data tables"
+  },
+  "options": {
+    "timestamps": true
+  },
+  "attributes": {
+    "name": {
+      "type": "string",
+      "required": true
+    },
+    "profile_picture": {
+      "model": "file",
+      "via": "related",
+      "plugin": "upload"
+    },
+    "birth_date": {
+      "type": "date",
+      "required": true
+    },
+    "gender": {
+      "type": "enumeration",
+      "required": true,
+      "enum": [
+        "male",
+        "female"
+      ]
+    },
+    "employmenthistories": {
+      "collection": "employmenthistory",
+      "via": "doctors"
+    },
+    "educationhistories": {
+      "collection": "educationhistory",
+      "via": "doctors"
+    },
+    "user": {
+      "model": "user",
+      "via": "doctors",
+      "plugin": "users-permissions"
+    },
+    "patients": {
+      "collection": "patients",
+      "via": "doctors"
+    },
+    "medicalRecords": {
+      "collection": "medicalrecord",
+      "via": "doctors"
+    }
+  }
+}

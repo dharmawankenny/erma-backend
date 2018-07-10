@@ -1,0 +1,113 @@
+{
+  "connection": "default",
+  "collectionName": "",
+  "info": {
+    "name": "familydiseasehistory",
+    "description": ""
+  },
+  "options": {
+    "timestamps": true
+  },
+  "attributes": {
+    "hipertensi": {
+      "type": "boolean"
+    },
+    "kencingManis": {
+      "type": "boolean"
+    },
+    "jantung": {
+      "type": "boolean"
+    },
+    "ginjal": {
+      "type": "boolean"
+    },
+    "asthma": {
+      "type": "boolean"
+    },
+    "alergi": {
+      "type": "boolean"
+    },
+    "stroke": {
+      "type": "boolean"
+    },
+    "kolesterol": {
+      "type": "boolean"
+    },
+    "hepatitis": {
+      "type": "boolean"
+    },
+    "gondok": {
+      "type": "boolean"
+    },
+    "prostate": {
+      "type": "boolean"
+    },
+    "katarak": {
+      "type": "boolean"
+    },
+    "ususBesar": {
+      "type": "boolean"
+    },
+    "kanker": {
+      "type": "boolean"
+    },
+    "gangguanMental": {
+      "type": "boolean"
+    },
+    "lainnya": {
+      "type": "boolean"
+    },
+    "hipertensiOrigin": {
+      "type": "string"
+    },
+    "kencingManisOrigin": {
+      "type": "string"
+    },
+    "jantungOrigin": {
+      "type": "string"
+    },
+    "ginjalOrigin": {
+      "type": "string"
+    },
+    "asthmaOrigin": {
+      "type": "string"
+    },
+    "alergiOrigin": {
+      "type": "string"
+    },
+    "strokeOrigin": {
+      "type": "string"
+    },
+    "kolesterolOrigin": {
+      "type": "string"
+    },
+    "hepatitisOrigin": {
+      "type": "string"
+    },
+    "gondokOrigin": {
+      "type": "string"
+    },
+    "prostateOrigin": {
+      "type": "string"
+    },
+    "katarakOrigin": {
+      "type": "string"
+    },
+    "ususBesarOrigin": {
+      "type": "string"
+    },
+    "kankerOrigin": {
+      "type": "string"
+    },
+    "gangguanMentalOrigin": {
+      "type": "string"
+    },
+    "lainnyaOrigin": {
+      "type": "string"
+    },
+    "patients": {
+      "model": "patients",
+      "via": "familyDiseaseHistory"
+    }
+  }
+}
